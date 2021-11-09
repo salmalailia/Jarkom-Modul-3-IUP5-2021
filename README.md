@@ -51,3 +51,14 @@ There are several criteria that Luffy and Zoro want to make, namely:
 5. The length of time the DHCP server lends the IP address to the client via Switch1 is 6 minutes, while the client via Switch3 is 12 minutes. With a maximum time allocated for borrowing an IP address for 120 minutes. (6)
 
 Number 2, add config in isc-dhcp-server (jipangu)
+
+## no. 7
+
+Luffy and Zoro plan to use Skypie as a server for buying and selling ships they own with a fixed IP address with IP [prefix IP].3.69 (7)
+
+First, take the hwaddress on Skypie
+
+Then config on Jipangu, dhcpd.conf
+
+Then add it to the skypie config
+
