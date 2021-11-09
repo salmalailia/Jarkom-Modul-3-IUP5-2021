@@ -77,11 +77,21 @@ Number 2, add config in isc-dhcp-server (jipangu)
 
 Luffy and Zoro plan to use Skypie as a server for buying and selling ships they own with a fixed IP address with IP [prefix IP].3.69 (7)
 
+### Answer
+
 First, take the hwaddress on Skypie
+
+![7 1](https://user-images.githubusercontent.com/73702347/140920056-ed01d2d8-8220-4821-a502-8e9d6593b031.jpg)
 
 Then config on Jipangu, dhcpd.conf
 
+![7 2 5](https://user-images.githubusercontent.com/73702347/140920089-5ff818fe-2164-4d38-9a3e-8dd5ca6443ff.jpg)
+
 Then add it to the skypie config
+
+![7 2](https://user-images.githubusercontent.com/73702347/140920081-ccd29a44-f470-41e4-9e63-a682c9bd11e1.jpg)
+
+![7 4](https://user-images.githubusercontent.com/73702347/140920098-8078b510-cd9c-4b58-9268-827a62355115.jpg)
 
 ## no. 8
 
