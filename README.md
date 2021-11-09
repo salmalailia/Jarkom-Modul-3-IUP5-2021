@@ -16,13 +16,15 @@ Khairi Wiryawan     (05111942000023)
 
 Luffy and Zoro plan to make the map with the criteria of Enies Lobby as DNS Server, Jipangu as DHCP Server, Water7 as Proxy Server
 
+### Answer
+
 Enies → bind9
 
 Jipangu → isc-dhcp-server
 
 Water7 → squid
 
-### Answer
+https://github.com/salmalailia/Jarkom-Modul-3-IUP5-2021/blob/c6d516cbf81327c3f9d25243f41ee384bd00a469/SS%20Soal%20Shift%203/1.1.jpg
 
 On Jipangu
 Change configuration interface in isc-dhcp-server
