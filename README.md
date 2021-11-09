@@ -38,15 +38,24 @@ Change configuration interface in isc-dhcp-server
 ## no. 2
 
 and Foosha as DHCP Relay (2)
+
+### Answer
+
 Add a script to install relay on foosha
 
+![2 1](https://user-images.githubusercontent.com/73702347/140919132-19526c24-9269-47fd-98ef-acaba2c890e6.jpg)
+
 then change the config on relay /etc/default/isc-dhcp-relay
+
+![2 2](https://user-images.githubusercontent.com/73702347/140919142-13746365-5d5a-4856-a1a5-e530fef34533.jpg)
 
 Server points to jipangu because it acts as a relay, and Interfaces to eth1 2 3 which is switch 1 2 3.
 
 ## no. 3
 
-1. All existing clients MUST use the IP configuration from the DHCP Server.
+1. All existing clients MUST use the IP configuration from the DHCP Server
+
+### Answer
 
 Number 1, edit the network config Alabasta, Loguetown, Skypie, Tottoland to
 
@@ -59,6 +68,10 @@ There are several criteria that Luffy and Zoro want to make, namely:
 5. The length of time the DHCP server lends the IP address to the client via Switch1 is 6 minutes, while the client via Switch3 is 12 minutes. With a maximum time allocated for borrowing an IP address for 120 minutes. (6)
 
 Number 2, add config in isc-dhcp-server (jipangu)
+
+![3 1](https://user-images.githubusercontent.com/73702347/140919518-3357af0a-b3dc-4611-94d2-68009c73d709.jpg)
+
+![3 2](https://user-images.githubusercontent.com/73702347/140919533-e82cb1d5-529c-492e-8518-f29678687b6a.jpg)
 
 ## no. 7
 
