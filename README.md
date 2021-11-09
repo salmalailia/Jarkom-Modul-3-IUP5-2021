@@ -26,8 +26,14 @@ Water7 → squid
 
 ![1 1](https://user-images.githubusercontent.com/73702347/140918006-13b947c5-f4f2-44b3-b844-49d6d34cc785.jpg)
 
+![1 2](https://user-images.githubusercontent.com/73702347/140918555-2f19b29c-8c84-449c-8b45-d3346426ecf4.jpg)
+
+![1 3](https://user-images.githubusercontent.com/73702347/140918587-41ca8377-08b8-4b34-b42a-b41ad8c332bc.jpg)
+
 On Jipangu
 Change configuration interface in isc-dhcp-server
+
+![1 4](https://user-images.githubusercontent.com/73702347/140918592-f910d835-c272-4c83-913f-ee0c2660886e.jpg)
 
 ## no. 2
 
