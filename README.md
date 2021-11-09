@@ -16,13 +16,13 @@ Khairi Wiryawan     (05111942000023)
 
 Luffy and Zoro plan to make the map with the criteria of Enies Lobby as DNS Server, Jipangu as DHCP Server, Water7 as Proxy Server
 
+### Answer
+
 Enies → bind9
 
 Jipangu → isc-dhcp-server
 
 Water7 → squid
-
-### Answer
 
 On Jipangu
 Change configuration interface in isc-dhcp-server
@@ -30,6 +30,9 @@ Change configuration interface in isc-dhcp-server
 ## no. 2
 
 and Foosha as DHCP Relay (2)
+
+### Answer
+
 Add a script to install relay on foosha
 
 then change the config on relay /etc/default/isc-dhcp-relay
@@ -39,6 +42,8 @@ Server points to jipangu because it acts as a relay, and Interfaces to eth1 2 3 
 ## no. 3
 
 1. All existing clients MUST use the IP configuration from the DHCP Server.
+
+### Answer
 
 Number 1, edit the network config Alabasta, Loguetown, Skypie, Tottoland to
 
@@ -55,6 +60,8 @@ Number 2, add config in isc-dhcp-server (jipangu)
 ## no. 7
 
 Luffy and Zoro plan to use Skypie as a server for buying and selling ships they own with a fixed IP address with IP [prefix IP].3.69 (7)
+
+### Answer
 
 First, take the hwaddress on Skypie
 
