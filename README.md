@@ -24,7 +24,7 @@ Jipangu → isc-dhcp-server
 
 Water7 → squid
 
-https://github.com/salmalailia/Jarkom-Modul-3-IUP5-2021/blob/c6d516cbf81327c3f9d25243f41ee384bd00a469/SS%20Soal%20Shift%203/1.1.jpg
+![1 1](https://user-images.githubusercontent.com/73702347/140918006-13b947c5-f4f2-44b3-b844-49d6d34cc785.jpg)
 
 On Jipangu
 Change configuration interface in isc-dhcp-server
