@@ -16,5 +16,11 @@ Khairi Wiryawan     (05111942000023)
 
 Luffy and Zoro plan to make the map with the criteria of Enies Lobby as DNS Server, Jipangu as DHCP Server, Water7 as Proxy Server
 
+Enies → bind9
+
+Jipangu → isc-dhcp-server
+
+Water7 → squid
+
 ### Answer
 
