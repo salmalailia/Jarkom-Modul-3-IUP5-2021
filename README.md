@@ -99,25 +99,13 @@ Loguetown is used as a Proxy client so that the safety of any transactions is se
 
 In squid.conf on Water7, add
 
+![8 1](https://user-images.githubusercontent.com/73651220/140927527-2aeada8a-c8a4-48a1-9d2b-84f283f59e07.jpg)
+
+![8 2](https://user-images.githubusercontent.com/73651220/140927472-fe314af1-7ca9-493b-831e-460337c8ed26.jpg)
+
 ![8 3](https://user-images.githubusercontent.com/73651220/140924592-26e2496b-f2e5-46c7-882c-c31e9d5c55ed.jpg)
 
 then turn on squid
-
-**Testing**
-
-For testing in Loguetown, we have to turn on forwarders in DNS EniesLobby, that is on named.conf.options
-
-
-
-then restart bind9
-
-In Loguetown, install lynx
-
-then add
-
-**Allow**
-
-Add allow to make it accessible 
 
 ## no. 9
 
@@ -125,12 +113,20 @@ To create a safer transaction environment and set two different website user, a 
 
 At Water7, we can use htpasswd
 
-then add its squid config
+![9 2](https://user-images.githubusercontent.com/73651220/140927710-fa486b5c-f842-4755-ac1d-5012d674086b.jpg)
 
-**Testing**
+then add config to the squid
 
-both username are now entered
+![9 1](https://user-images.githubusercontent.com/73651220/140927838-6f0e7d0b-5b97-43eb-b169-b5ab41adb66f.jpg)
 
 ## no. 10
 
 Transaction cannot be done every day, that is why internet access is limited to be accessible every Monday-Thursday from 07:00-13:00 and every Tuesday-Friday from 17:00-03:00 until tomorrow (Saturday, 03:00) (10)
+
+configure /etc/squid/acl.conf
+
+![10 1](https://user-images.githubusercontent.com/73651220/140927135-8285e820-c78d-4e78-bb8a-3ce6bf9adbb5.jpg)
+
+then add its squid config
+
+![10 2](https://user-images.githubusercontent.com/73651220/140927250-47c78058-716b-4ed3-a98a-235ff6acd1fe.jpg)
