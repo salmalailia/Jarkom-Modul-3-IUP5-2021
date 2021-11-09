@@ -99,17 +99,24 @@ Loguetown is used as a Proxy client so that the safety of any transactions is se
 
 In squid.conf on Water7, add
 
+![8 3](https://user-images.githubusercontent.com/73651220/140924592-26e2496b-f2e5-46c7-882c-c31e9d5c55ed.jpg)
+
 then turn on squid
 
 **Testing**
+
 For testing in Loguetown, we have to turn on forwarders in DNS EniesLobby, that is on named.conf.options
+
+
 
 then restart bind9
 
 In Loguetown, install lynx
+
 then add
 
 **Allow**
+
 Add allow to make it accessible 
 
 ## no. 9
@@ -122,13 +129,8 @@ then add its squid config
 
 **Testing**
 
+both username are now entered
+
 ## no. 10
 
 Transaction cannot be done every day, that is why internet access is limited to be accessible every Monday-Thursday from 07:00-13:00 and every Tuesday-Friday from 17:00-03:00 until tomorrow (Saturday, 03:00) (10)
-
-/etc/squid/acl.conf
-
-then add its squid config
-
-**Testing**
-
