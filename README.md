@@ -16,13 +16,13 @@ Khairi Wiryawan     (05111942000023)
 
 Luffy and Zoro plan to make the map with the criteria of Enies Lobby as DNS Server, Jipangu as DHCP Server, Water7 as Proxy Server
 
-### Answer
-
 Enies → bind9
 
 Jipangu → isc-dhcp-server
 
 Water7 → squid
+
+### Answer
 
 On Jipangu
 Change configuration interface in isc-dhcp-server
@@ -30,9 +30,6 @@ Change configuration interface in isc-dhcp-server
 ## no. 2
 
 and Foosha as DHCP Relay (2)
-
-### Answer
-
 Add a script to install relay on foosha
 
 then change the config on relay /etc/default/isc-dhcp-relay
@@ -42,8 +39,6 @@ Server points to jipangu because it acts as a relay, and Interfaces to eth1 2 3 
 ## no. 3
 
 1. All existing clients MUST use the IP configuration from the DHCP Server.
-
-### Answer
 
 Number 1, edit the network config Alabasta, Loguetown, Skypie, Tottoland to
 
@@ -61,11 +56,48 @@ Number 2, add config in isc-dhcp-server (jipangu)
 
 Luffy and Zoro plan to use Skypie as a server for buying and selling ships they own with a fixed IP address with IP [prefix IP].3.69 (7)
 
-### Answer
-
 First, take the hwaddress on Skypie
 
 Then config on Jipangu, dhcpd.conf
 
 Then add it to the skypie config
+
+## no. 8
+
+Loguetown is used as a Proxy client so that the safety of any transactions is secured and to prevent any transaction data leak. In Loguetown, proxy must be accessible under the name **jualbelikapal.yyy.com** with port 5000. (8)
+
+In squid.conf on Water7, add
+
+then turn on squid
+
+**Testing**
+For testing in Loguetown, we have to turn on forwarders in DNS EniesLobby, that is on named.conf.options
+
+then restart bind9
+
+In Loguetown, install lynx
+then add
+
+**Allow**
+Add allow to make it accessible 
+
+## no. 9
+
+To create a safer transaction environment and set two different website user, a user authentication is placed in the proxy with encryption MD5 and two usernames, luffybelikapalyyy with password luffy_yyy and zorobelikapalyyy with password zoro_yyy (9)
+
+At Water7, we can use htpasswd
+
+then add its squid config
+
+**Testing**
+
+## no. 10
+
+Transaction cannot be done every day, that is why internet access is limited to be accessible every Monday-Thursday from 07:00-13:00 and every Tuesday-Friday from 17:00-03:00 until tomorrow (Saturday, 03:00) (10)
+
+/etc/squid/acl.conf
+
+then add its squid config
+
+**Testing**
 
